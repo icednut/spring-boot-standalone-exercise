@@ -1,6 +1,5 @@
 package com.springbook.biz;
 
-import com.springbook.biz.common.Tv;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,13 +11,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class MainApplicationTests {
 
-	@Autowired
-	private ApplicationContext applicationContext;
+    @Autowired
+    private ApplicationContext applicationContext;
 
-	@Test
-	public void contextLoads() {
-		Tv samsungTv = (Tv) applicationContext.getBean("samsungTv");
-		samsungTv.powerOn();
-	}
+    @Test
+    public void contextLoads() {
+    }
 
 }
