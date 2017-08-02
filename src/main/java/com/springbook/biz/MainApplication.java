@@ -1,6 +1,6 @@
-package io.icednut.spring.exercise;
+package com.springbook.biz;
 
-import io.icednut.spring.exercise.model.Tv;
+import com.springbook.biz.common.Tv;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

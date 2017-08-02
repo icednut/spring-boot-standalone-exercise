@@ -1,6 +1,6 @@
-package io.icednut.spring.exercise;
+package com.springbook.biz;
 
-import io.icednut.spring.exercise.model.Tv;
+import com.springbook.biz.common.Tv;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

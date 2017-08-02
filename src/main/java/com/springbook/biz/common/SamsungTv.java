@@ -1,4 +1,4 @@
-package io.icednut.spring.exercise.model;
+package com.springbook.biz.common;
 
 /**
  * @author wangeun.lee@sk.com
